@@ -558,6 +558,7 @@ class MainWindow():
         appType.lower() == 'application' or\
         appType.lower() == 'game' or\
         appType.lower() == 'tool' or\
+        appType.lower() == 'tlc' or\
         appType.lower() == 'demo') and\
         installed:
             self.launchMenuButton.configure(state='normal')
